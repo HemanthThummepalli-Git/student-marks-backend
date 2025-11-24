@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    DOCKER_IMAGE = "yourdockerhubusername/student-marks-backend"
+    DOCKER_IMAGE = "hemanththummepalli/student-marks-backend"
     KUBE_NAMESPACE = "student-marks"
     KUBE_CONFIG_CRED_ID = "kubeconfig"
     DOCKER_CRED_ID = "dockerhub-creds"
